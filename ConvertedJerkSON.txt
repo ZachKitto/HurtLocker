@@ -1,0 +1,39 @@
+name:   bread           seen: 6 times
+=============           =============
+Price    1.23           seen: 6 times
+-------------           -------------
+
+name:    milk           seen: 7 times
+=============           =============
+Price    0.00           seen: 2 times
+-------------           -------------
+
+Price    3.23           seen: 4 times
+-------------           -------------
+
+Price    1.23           seen: 1 times
+-------------           -------------
+
+name: co0kies           seen: 1 times
+=============           =============
+Price    2.25           seen: 1 times
+-------------           -------------
+
+name:   error           seen: 2 times
+=============           =============
+Price    3.23           seen: 2 times
+-------------           -------------
+
+name:  apples           seen: 4 times
+=============           =============
+Price    0.25           seen: 2 times
+-------------           -------------
+
+Price    0.23           seen: 2 times
+-------------           -------------
+
+name: cookies           seen: 7 times
+=============           =============
+Price    2.25           seen: 7 times
+-------------           -------------
+

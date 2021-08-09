@@ -1,5 +1,10 @@
 import org.apache.commons.io.IOUtils;
+
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.util.Formatter;
+import java.util.Map;
 
 public class Main {
 
@@ -10,8 +15,9 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception{
-        String output = (new Main()).readRawDataToString();
-        System.out.println(output);
-
+//        String output = (new Main()).readRawDataToString();
+//        System.out.println(output);
+        FileWriter fileWriter = new FileWriter();
+        fileWriter.writeToFile(new FileOutputStream("ConvertedJerkSON.txt"));
     }
 }
