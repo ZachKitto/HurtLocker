@@ -73,7 +73,16 @@ public class PatternMatcher {
                     .toString());
             Matcher matcher = pattern.matcher(textToParse);
             matcher.find();
-            return matcher.group().toLowerCase();
+            String name = matcher.group();
+            if (name.contains("0")) {
+//              String integerAsString = Integer.toString(name.charAt(i));
+//              integerAsString = integerAsString.toLowerCase();
+                name = name.replace('0', 'o');
+            }
+            name = name.toLowerCase();
+            char firstLetter = Character.toUpperCase(name.charAt(0));
+            name = name.replace(name.charAt(0), firstLetter);
+            return name;
         } catch (Exception e) {
             //e.printStackTrace();
             return "error";
